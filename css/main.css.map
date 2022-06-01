@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.scss","main.css"],"names":[],"mappings":"AAAA,MAEI,cAAA,CADA,UCEJ","file":"main.css","sourcesContent":[".test {\r\n    color: black;\r\n    background: red;\r\n}",".test {\n  color: black;\n  background: red;\n}"]}

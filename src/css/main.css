@@ -1,0 +1,34 @@
+    body {
+        width: 1440px;
+    }
+    
+    .content {
+        display: flex;
+        justify-content: center;
+        height: 330px;
+        gap: 95px;
+        margin-top: 96px;
+    }
+    
+    .fit-picture {
+        width: 505px;
+        height: 330px;
+        left: 230px;
+    }
+    
+    .content__text {
+        width: 380px;
+        height: 250px;
+        left: 830px;
+        top: 136px;
+    }
+    /* @media only screen and (max-width: 1236px) {
+        .content__text {
+            display: block;
+            position: absolute;
+            width: 380px;
+            height: 250px;
+            left: 830px;
+            top: 136px;
+        }
+    } */

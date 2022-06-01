@@ -1,2 +1,17 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 960px;
+    width: 505px;
+    height: 330px;
+}
 
-/*# sourceMappingURL=main.css.map */
+.fit-picture {
+    position: absolute;
+    width: 505px;
+    height: 330px;
+    left: 230px;
+    top: 96px;
+}
