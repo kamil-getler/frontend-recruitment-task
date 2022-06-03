@@ -1,0 +1,26 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.popup {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    z-index: 5000;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.popup__box {
+    height: 210px;
+    width: 920px;
+    background: red;
+}
