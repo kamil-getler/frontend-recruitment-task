@@ -25,6 +25,10 @@ button {
     color: white;
 }
 
+button:hover {
+    background: #00898E;
+}
+
 .content {
     display: flex;
     flex-wrap: wrap;
