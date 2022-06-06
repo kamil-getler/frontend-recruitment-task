@@ -1,5 +1,5 @@
     .popup {
-        /* visibility: hidden; */
+        visibility: hidden;
         display: flex;
         position: fixed;
         justify-content: center;
@@ -33,4 +33,8 @@
         margin: 95px;
         display: flex;
         flex-direction: column;
+    }
+    
+    .open__button {
+        display: none;
     }
