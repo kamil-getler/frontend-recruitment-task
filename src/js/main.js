@@ -42,9 +42,13 @@ function click(result) {
 }
 
 function openClose() {
-    if (result <= 5) {
-        openB.classList.toggle('open__button');
+    if (result >= 5) {
+        openB.classList.remove('open__button');
+
     }
+
+
+
 }
 popup.addEventListener('click', () => {
         openClose();
@@ -82,6 +86,6 @@ pop__box.addEventListener('click', () => {
 openB.addEventListener('click', () => {
 
     result = 1;
-    localStorage.setItem('click', result)
-
+    localStorage.setItem('click', result);
+    openB.classList.toggle('open__button');
 }, false);
